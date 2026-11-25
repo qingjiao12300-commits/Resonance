@@ -1,3 +1,13 @@
+# Resonance77
+
+Resonance77 — 从 ModelScope 迁移的互动声音可视化体验。
+
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-blue?style=for-the-badge)](https://qingjiao12300-commits.github.io/Resonance77/)
+
+🔗 在线体验：https://qingjiao12300-commits.github.io/Resonance77/
+
+---
+
 # AI React Website Template
 
 A flexible, feature-rich React template designed for AI-generated websites with modern development tools and libraries.
