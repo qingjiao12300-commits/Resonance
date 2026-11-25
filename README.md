@@ -4,7 +4,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-blue?style=for-the-badge)](https://qingjiao12300-commits.github.io/Resonance77/)
 
-**Resonance 是一款基于 AI 叙事转译的日记社交 App。**
+**Resonance 是一款基于 AI 叙事转译、匹配的日记社交 App。**
 
 “我们在社交网络上表演生活，却只敢在备忘录里记录真实。”Resonance 由 AI 担任“守门人”：不匹配“发生了什么”，只匹配“感觉像什么”。
 
@@ -28,7 +28,7 @@
 
 https://qingjiao12300-commits.github.io/Resonance77/
 
-打开页面，在首页输入框里随便写一句心情，就可以开始用了，无需登录。
+打开页面，在首页输入框里随便写一句心情，就可以开始用了，无需登录。目前暂时为前端demo，未接入真实数据与模型API。
 
 ## 📖 产品愿景
 
@@ -48,4 +48,4 @@ npm run build
 
 ## 📝 Demo 说明
 
-Demo 中的叙事卡片与回响内容为预置示例，按心情关键词匹配，用于展示完整体验流程。
+Demo 中的叙事卡片与回响内容为基于MOCK数据的预置示例，按心情关键词匹配，用于展示完整体验流程。
