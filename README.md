@@ -1,82 +1,51 @@
-# Resonance77
+# Resonance (Re: 重逢)
 
-Resonance77 — 从 ModelScope 迁移的互动声音可视化体验。
+> 在喧嚣的互联网，找回失落的频率。
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-blue?style=for-the-badge)](https://qingjiao12300-commits.github.io/Resonance77/)
 
-🔗 在线体验：https://qingjiao12300-commits.github.io/Resonance77/
+**Resonance 是一款基于 AI 叙事转译的日记社交 App。**
 
----
+“我们在社交网络上表演生活，却只敢在备忘录里记录真实。”Resonance 由 AI 担任“守门人”：不匹配“发生了什么”，只匹配“感觉像什么”。
 
-# AI React Website Template
+写一句此刻的心情，AI 把它转译成一个电影感的场景。你先只看到一个意象词——“凉透的水”“便利店的灯”——点开才知道那是谁的心事。感觉像的人，会在几天后以“宿命重逢”再次相遇；回响里，你会遇见过去的自己。
 
-A flexible, feature-rich React template designed for AI-generated websites with modern development tools and libraries.
+## ✨ 怎么玩
 
-## ✨ Key Features
+| 页面 | 在这里做什么 |
+| --- | --- |
+| 此刻 | 写下此刻的心情，可切换社交 / 私密模式 |
+| 共振 | 刷到与你同频的陌生人意象卡片，点开展开叙事，只能发一条简聊 |
+| 回响 | 遇见过去的自己：按心情匹配你写过的日记 |
 
-- 🚀 **React 18 + TypeScript** - Modern development experience
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- ⚡ **Vite** - Fast build tool
-- 🌐 **i18next** - Complete internationalization solution
-- 🎯 **Zustand** - Lightweight state management
-- ✨ **Framer Motion** - Smooth animation effects
-- 🎭 **Headless UI** - Accessible UI components
-- 📦 **Lucide React** - Beautiful icon library
-- 🛣️ **React Router** - Single-page application routing
+## 🧩 核心机制
 
-## 🛠️ Tech Stack
+- **AI 棱镜**：把原始的情绪转译成第一人称的叙事场景，狼狈被体面地藏起来，“破碎感”被精准传达。
+- **意象社交**：没有自拍，没有标题党，只有“月亮”“冰美式”“末班车”这样的意象暗号，点开才是内页。
+- **宿命算法**：不追求“千人一面”的推荐。数天后因相似心境再次相遇时，触发金色的“宿命重逢”。
 
-### Core Technologies
-- React 18.3.1 + TypeScript 5.8.3
-- Vite 7.0.0 (Build tool)
-- Tailwind CSS 3.4.17 (CSS framework)
+## 🔗 在线体验
 
-### Feature Libraries
-- React Router DOM 6.30.1 (Routing)
-- Zustand 4.4.7 (State management)
-- i18next + react-i18next (Internationalization)
-- Framer Motion 11.0.8 (Animations)
-- Headless UI 1.7.18 (UI components)
-- Lucide React (Icon library)
+https://qingjiao12300-commits.github.io/Resonance77/
 
-## 🚀 Quick Start
+打开页面，在首页输入框里随便写一句心情，就可以开始用了，无需登录。
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+## 📖 产品愿景
 
-2. **Start development server**:
-   ```bash
-   npm run dev
-   ```
-   Visit http://localhost:5173 to view the application
+完整介绍见 [docs/PRODUCT-VISION.md](./docs/PRODUCT-VISION.md)。
 
-3. **Build for production**:
-   ```bash
-   npm run build
-   ```
+## 🛠️ 技术栈
 
-4. **Preview build**:
-   ```bash
-   npm run preview
-   ```
+React 18 + TypeScript + Vite + Tailwind CSS + Zustand
 
-## 📁 Project Structure
+## 🚀 本地运行
 
-```
-src/
-├── api/             # API related code
-├── assets/          # Static assets
-├── components/      # Reusable components
-├── layouts/         # Layout components  
-├── pages/           # Page components
-├── styles/          # Style files
-├── types/           # TypeScript type definitions
-├── App.tsx          # Main application component
-└── main.tsx         # Application entry point
+```bash
+npm install
+npm run dev
+npm run build
 ```
 
-## More Information
+## 📝 Demo 说明
 
-For more detailed project structure, tech stack, configuration instructions and development guide, please refer to the [YOUWARE.md](./YOUWARE.md) file.
+Demo 中的叙事卡片与回响内容为预置示例，按心情关键词匹配，用于展示完整体验流程。
